@@ -16,7 +16,6 @@ var person1 = new Person("Nicholas", 29, "Software Engineer");
 var person2 = new Person("Greg", 27, "Doctor");
 
 person1.friends.push("Van");
-
 alert(person1.friends)
 alert(person2.friends)
 alert(person1.friends === person2.friends)
